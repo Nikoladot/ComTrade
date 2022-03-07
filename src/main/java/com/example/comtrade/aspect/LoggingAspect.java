@@ -1,4 +1,4 @@
-package com.exemple.comtrade.aspect;
+package com.example.comtrade.aspect;
 
 import java.util.logging.Logger;
 

@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-import com.exemple.comtrade.aspect.LoggingAspect;
+import com.example.comtrade.aspect.LoggingAspect;
 
 
 
@@ -14,12 +14,7 @@ import com.exemple.comtrade.aspect.LoggingAspect;
 @EnableAspectJAutoProxy
 public class ComTradeApplication {
 
-	@Bean
-	public LoggingAspect loggingAspect() {
-		
-		return new LoggingAspect();
-	}
-	
+
 	
 	public static void main(String[] args) {
 			
